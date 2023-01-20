@@ -1,11 +1,11 @@
-# Minecraft Server Verwaltungs Werkzeug
-# Version de 3.1.0.0 erstellt von CrazyCloudCraft 26.10.2022 https://crazycloudcraft.de/
+# Minecraft Server verwaltungs Werkzeug
+# Version de-3.1.0.0 erstellt von CrazyCloudCraft 26.10.2022 https://crazycloudcraft.de/
 
 # Verwende STRG+k+x um die Einstellungen zu speichern (mithilfe des joe's Bearbeitungsprogramm)
-# Verwende STRG+c um alle Einstellungen abzubrechen (Du kannst die Einstellungen mit dem manage.tool öffnen)
+# Verwende STRG+c um alle Einstellungen abzubrechen (Du kannst die Einstellungen mit dem manage.tool oeffnen)
 
-# Wähle deine Minecraft Version 1.18.2, 1.18.1, 1.18, 1.19.2, ...
-version: 1.19.2
+# Wähle deine Minecraft Version 1.19.3, 1.18, 1.17.1 ...
+version: 1.19.3
 
 # Was für eine Software willst du eigentlich verwenden?
 # Du kannst hier paper, purpur, spigot, bukkit, mohist, bungeecord, velocity, waterfall hinschreiben.
@@ -13,7 +13,7 @@ software: purpur
 
 # In welchem ordner(n) befindet sich dann der Server?
 # z.B. home/server/MeinCoolerServer oder opt/MeinGeilomatikoServer
-server-directory: opt/MeinServer
+server-directory: installarg1
 
 # Welchen System-Namen soll die Konsole und die main.jar haben?
 # Nutze keine Namen wie zum Beispiel "system" oder "main", 
