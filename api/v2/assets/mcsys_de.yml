@@ -1,7 +1,5 @@
 # Minecraft Server verwaltungs Werkzeug
 # Version de-3.1.0.0 erstellt von CrazyCloudCraft 26.10.2022 https://crazycloudcraft.de/
-
-# Erweiterte Log infomationen
 debug: false
 
 # Welchen Namen soll dein system haben? 
