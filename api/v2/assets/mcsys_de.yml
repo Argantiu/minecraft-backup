@@ -1,75 +1,39 @@
 # Minecraft Server verwaltungs Werkzeug
 # Version de-3.1.0.0 erstellt von CrazyCloudCraft 26.10.2022 https://crazycloudcraft.de/
 
-info:
-  name: mymc
-  directory: /opt/MyServer/
-minecraft:
-    version: 1.19.3
-    software: purpur
-    bedrock: false
-system:
-    ram: 4GB
-    proxy: false
-    counter: true
-backups:
-  backup: true
-log:
-  debug: false
-  
+# Erweiterte Log infomationen
+debug: false
 
+# Welchen Namen soll dein system haben? 
+# Nutze nur kleinbuchstaben
+name: myserver
 
+# In diesen Ordner(n) befinndet sich dein Server.
+directory: /opt/MyServer/
 
-
-
-
-
-# Verwende STRG+k+x um die Einstellungen zu speichern (mithilfe des joe's Bearbeitungsprogramm)
-# Verwende STRG+c um alle Einstellungen abzubrechen (Du kannst die Einstellungen mit dem manage.tool oeffnen)
-
-# Wähle deine Minecraft Version 1.19.3, 1.18, 1.17.1 ...
+# Welche Minecraft Version willst du haben?
 version: 1.19.3
 
-# Was für eine Software willst du eigentlich verwenden?
-# Du kannst hier paper, purpur, spigot, bukkit, mohist, bungeecord, velocity, waterfall hinschreiben.
+# Welche Software willst du verwenden?
+# Du kannst hier [ paper, purpur, spigot, bukkit, mohist
+# bungeecord, velocity, waterfall ] hinschreiben.
 software: purpur
 
-# In welchem ordner(n) befindet sich dann der Server?
-# z.B. home/server/MeinCoolerServer oder opt/MeinGeilomatikoServer
-server-directory: installarg1
-
-# Welchen System-Namen soll die Konsole und die main.jar haben?
-# Nutze keine Namen wie zum Beispiel "system" oder "main", 
-# weil diese eventuell schon vom System belegt sind.
-systemname: mcpurpur
-# Sicherer ist, wenn du "mc" vor dem Namen schreibst ;)
-
-# Wie viel Ram soll dein Server bekommen? 
-# z.B.: 2024MB oder 10GB
-ram: 4GB
-
-# Wo befinndet sich das Java?
-# (Default java) was man mit "java --version" erreicht, ist z.B.: java: /usr/bin/java
-java: /usr/bin/java
-# Dieses feature wird bald durch ein automatisches system ersetzt! (version 3.5.0.0)
-
-# Soll oder ist dieser Server mit einem Proxy (Bungeecord/Waterfall etc.) verbunden? 
-proxy-mode: false
-
-# Fügt einen coutdown beim stoppen hinzu, wenn noch spieler online sind (bei einem Proxy hat das hier keine wirkung)
-dynamic-counter: true
-
-# --- Backups ---
-# Brauchst du Backups? 
-# Dann musst du das hier auf "true" setzen.
-backups: false
-
-# (Empfohlen) Möchtest du bessere backups? (Es reduziert die Dateiengröße sehr und behält nur alle nötigen dinge)
-# Hierfür muss das obere backups: true sein.
-primebackups: false
-
-# --- Bedrock Edition (MCPE) ---
-# Willst du, dass Bedrock Edition Spieler auch mitspielen können?
+# Willst du Bedrock Spieler auf deinen Server lassen?
 bedrock: false
 
-# Konfiguration zu ende. Wenn das nicht hier stehen würde, dann ist die Datei kaputt!
+# Wie viel Ram brauchst du? 
+# Nutze niemals alles an Ram. Der Server braucht auch was zu Essen.
+# Ram ist nicht CPU und kann nichts gegen lags machen.
+ram: 4GB
+
+# Ist oder Soll dein Server mit einem Proxy verbunden sein?
+proxy: false
+
+# Willst du einen Counter haben wenn noch Spieler online sind?
+counter: true
+
+# Willst du intiligente Backups von deinem Server machen?
+backup: true
+  
+# Konfiguration fertig :)
