@@ -1,6 +1,29 @@
 # Minecraft Server verwaltungs Werkzeug
 # Version de-3.1.0.0 erstellt von CrazyCloudCraft 26.10.2022 https://crazycloudcraft.de/
 
+info:
+  name: mymc
+  directory: /opt/MyServer/
+minecraft:
+  version: 1.19.3
+  software: purpur
+  bedrock: false
+system:
+  ram: 4GB
+  proxy: false
+  counter: true
+backups:
+  backup: true
+log:
+  debug: false
+  
+
+
+
+
+
+
+
 # Verwende STRG+k+x um die Einstellungen zu speichern (mithilfe des joe's Bearbeitungsprogramm)
 # Verwende STRG+c um alle Einstellungen abzubrechen (Du kannst die Einstellungen mit dem manage.tool oeffnen)
 
